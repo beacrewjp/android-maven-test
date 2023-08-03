@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!-- This module was also published with a richer model, Gradle metadata,  -->
   <!-- which should be used instead. Do not delete the following line which  -->
   <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
@@ -13,21 +12,9 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>io.realm</groupId>
-      <artifactId>realm-annotations</artifactId>
-      <version>10.16.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.eclipse.paho</groupId>
       <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
       <version>1.2.5</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.realm</groupId>
-      <artifactId>realm-android-library</artifactId>
-      <version>10.16.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -50,17 +37,6 @@
       <exclusions>
         <exclusion>
           <artifactId>support-v4</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <artifactId>serviceLibrary-release-3.5.3</artifactId>
-      <type>aar</type>
-      <scope>runtime</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
           <groupId>*</groupId>
         </exclusion>
       </exclusions>

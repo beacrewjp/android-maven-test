@@ -93,23 +93,6 @@
           ]
         },
         {
-          "group": null,
-          "module": "serviceLibrary-release-3.5.3",
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ],
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "serviceLibrary-release-3.5.3",
-              "type": "aar",
-              "extension": "aar"
-            }
-          }
-        },
-        {
           "group": "androidx.core",
           "module": "core-ktx",
           "version": {
