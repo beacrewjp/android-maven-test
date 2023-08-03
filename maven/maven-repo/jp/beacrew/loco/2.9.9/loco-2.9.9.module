@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.beacrew",
+    "module": "loco",
+    "version": "2.9.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "productionReleaseVariantProductionReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.realm",
+          "module": "realm-annotations",
+          "version": {
+            "requires": "10.16.1"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.realm",
+          "module": "realm-android-library",
+          "version": {
+            "requires": "10.16.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loco-2.9.9.aar",
+          "url": "loco-2.9.9.aar",
+          "size": 264022,
+          "sha512": "4b2b8d21fd905c0b525da467d94b1f107747766cd4d0de1bd10b810e391efc286ec729b85f5fc54547e17ca73d0de7efb21f0e1e43ca5f76a00966db47e2fef2",
+          "sha256": "4c2d4e026b46605906db9518744544bd9667e413fa395c02e25f6cc61b7d8f0a",
+          "sha1": "79e4b57ce8e273ca7f2a50ad556469b6cae44f39",
+          "md5": "21e89aa877eff7bf6646ceb36f6b73fb"
+        }
+      ]
+    },
+    {
+      "name": "productionReleaseVariantProductionReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.altbeacon",
+          "module": "android-beacon-library",
+          "version": {
+            "requires": "2.19.6"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "support-v4"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.14.9"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "support-v4"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "module": "serviceLibrary-release-3.5.3",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "serviceLibrary-release-3.5.3",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "com.github.AppDevNext.Logcat",
+          "module": "LogcatCoreLib",
+          "version": {
+            "requires": "2.12"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.5.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "support-v4"
+            }
+          ]
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-annotations",
+          "version": {
+            "requires": "28.0.0"
+          }
+        },
+        {
+          "group": "io.realm",
+          "module": "realm-annotations",
+          "version": {
+            "requires": "10.16.1"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.realm",
+          "module": "realm-android-library",
+          "version": {
+            "requires": "10.16.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loco-2.9.9.aar",
+          "url": "loco-2.9.9.aar",
+          "size": 264022,
+          "sha512": "4b2b8d21fd905c0b525da467d94b1f107747766cd4d0de1bd10b810e391efc286ec729b85f5fc54547e17ca73d0de7efb21f0e1e43ca5f76a00966db47e2fef2",
+          "sha256": "4c2d4e026b46605906db9518744544bd9667e413fa395c02e25f6cc61b7d8f0a",
+          "sha1": "79e4b57ce8e273ca7f2a50ad556469b6cae44f39",
+          "md5": "21e89aa877eff7bf6646ceb36f6b73fb"
+        }
+      ]
+    }
+  ]
+}
