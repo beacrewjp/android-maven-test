@@ -31,6 +31,19 @@
           }
         },
         {
+          "group": "org.altbeacon",
+          "module": "android-beacon-library",
+          "version": {
+            "requires": "2.19.6"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "support-v4"
+            }
+          ]
+        },
+        {
           "group": "org.eclipse.paho",
           "module": "org.eclipse.paho.client.mqttv3",
           "version": {
@@ -66,19 +79,6 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
-        {
-          "group": "org.altbeacon",
-          "module": "android-beacon-library",
-          "version": {
-            "requires": "2.19.6"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "support-v4"
-            }
-          ]
-        },
         {
           "group": "com.squareup.okhttp3",
           "module": "okhttp",
@@ -167,6 +167,19 @@
           "version": {
             "requires": "10.16.1"
           }
+        },
+        {
+          "group": "org.altbeacon",
+          "module": "android-beacon-library",
+          "version": {
+            "requires": "2.19.6"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "support-v4"
+            }
+          ]
         },
         {
           "group": "org.eclipse.paho",
